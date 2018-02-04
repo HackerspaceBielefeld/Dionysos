@@ -18,6 +18,5 @@ cabal.sandbox.config
 *.keter
 *~
 \#*
-Dionysos.cabal
 /codex.tags
 /TAGS
