@@ -19,3 +19,5 @@ cabal.sandbox.config
 *~
 \#*
 Dionysos.cabal
+/codex.tags
+/TAGS
