@@ -9,6 +9,8 @@
 
 / HomeR GET POST
 
+/cookbook CookbookR GET
+
 /comments CommentR POST
 
 /profile ProfileR GET
