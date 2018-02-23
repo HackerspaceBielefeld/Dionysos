@@ -8,7 +8,7 @@ module Recipe
   , Instructions
   ) where
 
-import           Data.ByteString
+import           Data.Text
 import           Data.Quantities
 import           Yesod.Markdown
 
@@ -26,7 +26,7 @@ data Ingredient = Ingredient
   , name   :: Name
   }
 
-type Description = ByteString
-type Tag = ByteString
-type Name = ByteString
+type Description = Text
+type Tag = Text
+type Name = Text
 type Instructions = Markdown
